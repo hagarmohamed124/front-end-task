@@ -1,0 +1,589 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body {
+  
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+ overflow-x: hidden;
+    
+   
+}
+#aboutMe-sec , #skills-sec , #portfolio-sec , footer {
+  position: relative;
+}
+:root {
+
+    --main-color: #fff;
+    --secondary-color: #F7F7F7;
+    --purple:#7579FF;
+    --Marad0 :#EDEEFF;
+    
+   
+
+}
+nav .container {
+   margin-top: 50px;
+   background: #1B1C37;
+border-radius: 14.4224px;
+padding: 7.7px 51.89px 7.7px 61px;
+}
+
+nav .container .name {  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17.3069px;
+line-height: 26px;
+color: var(--main-color);
+margin-left: 11.35px;
+}
+.navbar-toggler span:nth-child(1){
+    border-top: 4px solid #FFFFFF;
+    width: 32px;
+   display:block;
+   margin-bottom: 10px;
+}
+.navbar-toggler span:nth-child(2){
+    width: calc(32px - 15.6px);
+    border-top: 4px solid #FFFFFF;
+   display:block;
+   margin-bottom: 10px;
+   direction: ltr ;
+}
+
+nav .container .nav-btn {
+padding: 8.65347px 36.0561px;
+background: #7579FF;
+border-radius: 8.65347px;
+border:none;
+width: 174.11px;
+height: 43.31px;
+color: var(--main-color);
+}
+
+
+/* <!-- end navbar --> */
+
+
+section .right-sec {
+margin-top:126.89px;;
+    
+}
+.p-frist {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    height: 67px;
+    width: 375px;
+    margin-top: 55px;
+}
+
+.fbig-btn{
+background: linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+border-radius: 16px;
+width: 286px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 50px;
+color: var(--main-color);
+border:none;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+margin-top: 50px;
+}
+.fbig-btn img {
+    margin-left: 12.17px;
+}
+.right-sec .arrow-sec {
+   
+    margin-left: 51px;
+    margin-top:51px ;
+}
+
+ .marrginTop {
+margin-top: 68.89px;
+
+}
+
+
+.skills-margin {
+
+  margin-top: 64px;
+  margin-bottom: 69.42px;
+}
+
+
+
+
+/* <!-- end first section --> */
+
+#skills-sec {
+padding-bottom: 150px;
+
+}
+
+#skills-sec .PuntosTop-skills {
+  position: absolute;
+  left: 0%;
+  top:8%;
+ 
+}
+
+#skills-sec .ellipseTop-skills {
+  position: absolute;
+  left: 0px;
+  top:150px;
+}
+#skills-sec .ellipseRight-skills {
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+#skills-sec .PuntosRight-skills {
+  position: absolute;
+  right: 0px;
+  top:450px;
+}
+#skills-sec .PuntosRight-skills  img {
+width:100px;
+}
+
+#skills-sec .PuntosBottom-skills {
+  position: absolute;
+left: 0px;
+  bottom: 20px;;
+}
+ .PuntosEllipse-skills {
+  position: absolute;
+left: 0px;
+  bottom: 0px;
+  top:600px;
+}
+#skills-sec .PuntosBottom-skills img {
+  width:100px;
+}
+
+#skills-sec .ellipseBottom-skills {
+  position: absolute;
+  right: 0px;
+    bottom: 0px;
+
+}
+
+#skills-sec .PuntosMidSmaple-skills {
+  position: absolute;
+  left: 0%;
+    bottom: 4%;
+}
+
+
+.skills-margin {
+
+  margin-top: 84px;
+  margin-bottom: 69.42px;
+}
+
+
+
+
+
+
+
+
+
+.skill{
+width: 160px;
+height: 160px;
+position: relative;
+}
+
+.outer{
+  height: 160px; 
+  width: 160px; 
+  border-radius: 50%;
+  padding: 20px;
+  background: #EDEEFF;
+  }
+
+  .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: #F7F7F7;
+}
+
+#number h2 {
+  font-weight: bold;
+  color: #5F6073;
+}
+
+
+circle{
+fill: none;
+stroke:var(--purple);
+stroke-width: 20px;
+stroke-dasharray: 472;
+stroke-dashoffset: 472;
+animation: anim 2s linear forwards;
+}
+
+.two {
+  animation: two 2s linear forwards;
+}
+.three {
+  animation: three 2s linear forwards;
+}
+
+svg{
+position: absolute;
+top: 0;
+left: 0;
+transform: rotate(-140deg); 
+}
+
+@keyframes anim{
+100%{
+  stroke-dashoffset: 110;
+}
+
+}
+@keyframes two{
+100%{
+  stroke-dashoffset: 130;
+}
+
+}
+
+@keyframes three{
+100%{
+  stroke-dashoffset: 155;
+}
+
+}
+
+#skills-sec h5 {
+margin-top: 19.39px;
+
+}
+
+
+.topborder-skills {
+background-color:#EDEEFF;
+height: 2px;
+width: 100%;
+margin-bottom: 43px;
+}
+
+.bottomBorder-skill {
+
+  background-color:#EDEEFF;
+height: 2px;
+
+margin-bottom: 31px;
+margin-top: 38.78px;
+padding-left: 0px;
+
+}
+
+
+/* aboutMe-sec */
+
+
+
+  #aboutMe-sec {
+  background-image: url('../imgs/Vector2.svg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+} 
+
+#aboutMe-sec h3  {
+  color:var(--main-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 105%;
+  margin-top: 50px;
+margin-bottom: 250px;
+}
+
+#aboutMe-sec .container div .percentage {
+  color:var(--main-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  color: #1B1C37;
+}
+#aboutMe-sec .container div .about-text {
+  font-weight: 600;
+  font-size: 36px;
+  color: #5F6073;
+}
+
+
+
+#aboutMe-sec .centered-div {
+  width: 1198.96px; 
+  background: #FFFFFF;
+  box-shadow: 4px 4px 92px rgba(117, 121, 255, 0.18);
+  border-radius: 60px;
+  margin-bottom: 346px;
+ 
+
+}
+
+
+#aboutMe-sec .centered-div .topCentered-div {
+background: linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+box-shadow: 40px 4px 175px rgba(117, 121, 255, 0.3);
+border-radius: 90px;
+margin-top: -185px;
+margin-bottom: 40px;
+
+}
+
+#aboutMe-sec .PuntosLeft-AboutMe {
+
+  position: absolute;
+  left: 0%;
+  top:20%;
+}
+
+
+#aboutMe-sec .PuntosRight-AboutMe {
+
+  position: absolute;
+  right: 0%;
+bottom: 10%;
+
+}
+  
+
+
+
+/* <!--  start Portfolio section -- */
+
+#portfolio-sec {
+
+  margin-bottom: 125px;
+}
+
+
+#portfolio-sec h3 {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 105%;
+  background: linear-gradient(180deg, #B224EF 0%, #7579FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+}
+
+#portfolio-sec  .potifilo-puntos {
+position: absolute;
+bottom:  -42px;
+z-index: -1;
+}
+
+
+#portfolio-sec .container  .borderPortfolio-sec   {
+  
+  border-bottom: 2px solid var(--Marad0);
+
+}
+
+
+#portfolio-sec .container .Eventos-Premium {
+/* 
+  width: 518px;*/
+  height: 276px; 
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(67, 67, 67, 0.18);
+  border-radius: 40px;
+margin-top: 214px;
+position: relative;
+}
+
+#portfolio-sec .container .Eventos-Premium .portflio-text {
+  margin-top: 176px;
+  margin-left: 64px;
+
+  
+}
+
+#portfolio-sec .container .Eventos-Premium .portflio-text h5 {
+  border-bottom: 2px solid var(--Marad0);
+  width: 250px;
+  font-weight: 600;
+font-size: 23px;
+  background: linear-gradient(180deg, #B224EF 0%, #7579FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#portfolio-sec .container .Eventos-Premium .portflio-text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5F6073;
+
+}
+
+#portfolio-sec .container .Eventos-Premium img {
+
+  position:absolute;
+  /* right: 12.5%; */
+  right: 10.5%;
+   width: 80%;
+  bottom:50%;
+}
+
+/* ----------------end Portfolio section --------------------- */
+
+
+
+/* ----------------start footer--------------------- */
+
+footer {
+  background-image: url('../imgs/Rectangle 20.svg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+  margin-top: 100px;
+}
+
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5F6073;
+}
+
+/* ----------------end footer--------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------
+/* ------------------ Media Query --------------------- */
+
+@media (max-width: 991.98px) {
+  #aboutMe-sec .container div .about-text {
+   font-size: 20px;
+  }
+
+  #aboutMe-sec .container div .percentage {
+  
+    font-size: 36.0767px;
+  }
+
+
+  #aboutMe-sec .centered-div .topCentered-div {
+border-radius: 40px;
+margin-top: -100px;
+
+    
+    }
+
+    #aboutMe-sec .centered-div {
+      margin-bottom: 100px;
+    }
+
+    #aboutMe-sec h3 {
+ 
+      margin-bottom: 134px;
+    }
+
+
+    
+   
+
+
+ }
+
+ @media (min-width: 768px) and (max-width:987px) {
+  #aboutMe-sec .centered-div .topCentered-div {
+    border-radius: 60px;
+        
+        }
+
+ }
+
+
+ @media (max-width: 768px) {
+
+  #aboutMe-sec .centered-div ,#portfolio-sec .container .Eventos-Premium  {
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+/* 
+  #aboutMe-sec .PuntosLeft-AboutMe {
+  
+    top:25%;
+    left: -20%
+
+  } */
+
+
+  #portfolio-sec .container .Eventos-Premium .portflio-text p {
+
+    font-size: 10px;
+ 
+  
+  }
+  #portfolio-sec .container .Eventos-Premium .portflio-text {
+    margin-top: 176px;
+    margin-left: 50px;
+  
+    
+  }
+  
+  #aboutMe-sec .PuntosRight-AboutMe img {
+    width: 100px;
+        
+        }
+    
+
+  }
+
+
